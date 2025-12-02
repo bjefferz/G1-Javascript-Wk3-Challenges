@@ -1,6 +1,6 @@
 function sharePizza(x, y) {
-    const slicesPerPerson = (x / y).toFixed(2);
-    return `Each person gets ${slicesPerPerson} slices of pizza; from our ${x} slice pizza`;
+  const slicesPerPerson = (x / y).toFixed(2);
+  return `Each person gets ${slicesPerPerson} slices of pizza; from our ${x} slice pizza`;
 }
 
 //output examples:

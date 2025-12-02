@@ -1,8 +1,8 @@
 function exercise(exerciseName) {
-    function printExercise() {
-        return `Today's exercise: ${exerciseName}`;
-    }
-    return printExercise(); // Call the inner function so console.log receives the string
+  function printExercise() {
+    return `Today's exercise: ${exerciseName}`;
+  }
+  return printExercise(); // Call the inner function so console.log receives the string
 }
 
 // Test cases:
